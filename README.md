@@ -1,6 +1,6 @@
 # ExpressDeployed_NewsLetter-SignUp-Page
 
-### The Express Deployed Weather Fetch Web APP utilizes the data of [Open Weather API](https://openweathermap.org/api) as raw material. It first presents a web page where users could input the latitude and longitude of a location, and then the realtime weather condition in the moment as well as that in the next 7 days will be loaded.
+### Check Out the Page Here: https://salty-tor-31149.herokuapp.com/.
 
 ## SKILLS:
 #### It covers the knowledge of **_HTML, CSS, Bootstrap,  Js, backend Node.js and  Express**
