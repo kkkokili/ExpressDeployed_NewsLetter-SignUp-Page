@@ -1,4 +1,4 @@
-# Express_Deployed_Weather_Fetch_Web_APP
+# Express Deployed News Letter Sign Up Page
 
 ### [News Letter Sign Up Page](https://salty-tor-31149.herokuapp.com/)
 
