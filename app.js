@@ -1,4 +1,6 @@
 // jshint esversion:8
+import {MailChimp_apikey, MailChimp_listID} from "apikey.js";
+
 const express = require('express');
 
 const app = express();
@@ -22,18 +24,14 @@ app.post('/', (req, res) => {
   const country = req.body.country;
   // country without problem
   console.log(country);
-  const apikey = "1eb594d9d0ad2409e949e00fe3b4c695-us6";
-  const list_id = "5b28fdb4a1";
-
-
 
   client.setConfig({
-    apiKey: apikey,
+    apiKey: MailChimp_apikey,
     server: "us6",
   });
 
   const run = async () => {
-    const response = await client.lists.addListMember(list_id, {
+    const response = await client.lists.addListMember(MailChimp_listID, {
       email_address: email,
       status: "subscribed",
       merge_fields: {
@@ -57,12 +55,6 @@ app.listen(process.env.PORT || 3000, () => {
   console.log('Port 3000 has started to listen!');
 });
 
-
-
-// API key
-// 1eb594d9d0ad2409e949e00fe3b4c695-us6
-// List ID
-// 5b28fdb4a1
 
 
 // 1. Add member to list:
