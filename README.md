@@ -1,6 +1,6 @@
 # Express Deployed News Letter Sign Up Page
 
-### [News Letter Sign Up Page](https://salty-tor-31149.herokuapp.com/)
+### Check Out the APP page here: [News Letter Sign Up Page](https://salty-tor-31149.herokuapp.com/)
 
 ## SKILLS:
 #### It covers the knowledge of **_HTML, CSS, Bootstrap,  Js, backend Node.js and  Express**
