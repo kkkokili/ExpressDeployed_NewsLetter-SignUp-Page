@@ -1,4 +1,4 @@
-# Express Deployed News Letter Sign Up Page<br/><br/><br/>
+# Express Deployed News Letter Sign Up Page<br/><br/>
 
 ## Check Out the APP: [News Letter Sign Up Page](https://salty-tor-31149.herokuapp.com/)<br/><br/>
 
